@@ -1,0 +1,6 @@
+mediaBootsNormal10 <- replicate(10, mean(sample(distNormalSimulacao, 10, replace = TRUE)))
+mediaBootsNormal73 <- replicate(73, mean(sample(distNormalSimulacao, 10, replace = TRUE)))
+mediaBootsNormal277 <- replicate(277, mean(sample(distNormalSimulacao, 10, replace = TRUE)))
+print(mean (mediaBootsNormal10))
+print(mean (mediaBootsNormal73))
+print(mean (mediaBootsNormal277))
